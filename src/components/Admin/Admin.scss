@@ -1,0 +1,33 @@
+.admin-container {
+    display: flex;
+    .admin-sidebar {
+        .pro-sidebar {
+            height: 100vh !important;
+            }
+    }
+}
+.admin-container {
+    .admin-sidebar {
+        .sidebar-menu {
+            height: 100vh !important;
+           border: 0.2px solid #ada8a8;
+           .sidebar-menuitem {
+           }
+        }
+
+    }
+}
+
+.admin-content {
+    width: 100%;
+    .admin-header {
+        height: 40px;
+        border: 1px solid green;
+    }
+    .admin-main {
+    }
+}
+
+.sidebar-menu[data-image]:after{
+  opacity: 0.77;
+}
